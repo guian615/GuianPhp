@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  h1{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 1%;
+  }
+  body {
+    font-size: 120%;
+    background-image: url("j.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+  
+  
+  .header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+  }
+  form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .input-group {
+    margin: 10px 0px 10px 0px;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  }
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+  }
+  .input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  .btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    border: none;
+    border-radius: 5px;
+    
+  }
+  btn :hover{
+    background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+    color: black;
+  }
+
+  .error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px blue; 
+    color: rgb(241, 19, 19); 
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    border-radius: 5px; 
+    text-align: left;
+  }
+  .success {
+    color: #3c763d; 
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
